@@ -1,0 +1,16 @@
+# secrets and sessions
+.env
+.env.*
+*.session
+*cookies*
+
+# collected data and outputs contain other people's posts — keep them local
+data/
+output/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store

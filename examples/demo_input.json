@@ -1,0 +1,1267 @@
+{
+ "schema": "x_reply_triage.input.v1",
+ "owner": "demo_creator",
+ "since": "2026-10-03",
+ "collector": "synthetic-demo",
+ "collected_at": "2026-10-10T12:30:00+00:00",
+ "note": "Synthetic sample. Every account and post here is made up; demo-* ids are not real tweets.",
+ "coverage": {
+  "replies": 12,
+  "accounts": 11,
+  "accounts_checked": 11,
+  "accounts_failed": 1
+ },
+ "replies": [
+  {
+   "id": "demo-0001",
+   "url": "https://x.com/i/status/demo-0001",
+   "author": "demo_maya_builds",
+   "author_id": "",
+   "text": "@demo_creator Did you run the triage on Claude or Codex? My drafts kept missing context too.",
+   "created_at": "2026-10-10T12:05:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0002",
+   "url": "https://x.com/i/status/demo-0002",
+   "author": "demo_wang_pm",
+   "author_id": "",
+   "text": "@demo_creator 1000 粉就能开合作这个我也想试，是在后台直接申请吗？",
+   "created_at": "2026-10-10T12:06:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0003",
+   "url": "https://x.com/i/status/demo-0003",
+   "author": "demo_lin_trades",
+   "author_id": "",
+   "text": "@demo_creator 这个分档挺实用，我之前全都当真人回，累死。",
+   "created_at": "2026-10-10T12:07:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0004",
+   "url": "https://x.com/i/status/demo-0004",
+   "author": "demo_busy_newsdesk",
+   "author_id": "",
+   "text": "@demo_creator Can we quote this in tomorrow's newsletter?",
+   "created_at": "2026-10-10T12:08:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0005",
+   "url": "https://x.com/i/status/demo-0005",
+   "author": "demo_tg_fan",
+   "author_id": "",
+   "text": "@demo_creator TG: 群里也在讨论这个，你那个分档规则能分享吗？",
+   "created_at": "2026-10-10T12:09:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0006",
+   "url": "https://x.com/i/status/demo-0006",
+   "author": "demo_agent_harness_daily",
+   "author_id": "",
+   "text": "@demo_creator Great breakdown. Curious — which performs better for you, tutorials or news takes?",
+   "created_at": "2026-10-10T12:10:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0007",
+   "url": "https://x.com/i/status/demo-0007",
+   "author": "demo_agent_harness_daily",
+   "author_id": "",
+   "text": "@demo_creator Spot on. The harness is what really matters here.",
+   "created_at": "2026-10-10T12:11:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0008",
+   "url": "https://x.com/i/status/demo-0008",
+   "author": "demo_token_is_power",
+   "author_id": "",
+   "text": "@demo_creator 后台数据这个观察很实在。好奇你这边互动最好的是哪类，实操还是新闻？",
+   "created_at": "2026-10-10T12:12:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0009",
+   "url": "https://x.com/i/status/demo-0009",
+   "author": "demo_growth_loop_ai",
+   "author_id": "",
+   "text": "@demo_creator This is the real moat — systems over prompts. What's your stack?",
+   "created_at": "2026-10-10T12:13:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0010",
+   "url": "https://x.com/i/status/demo-0010",
+   "author": "demo_airdrop_claim",
+   "author_id": "",
+   "text": "@demo_creator Airdrop is live 🎁 claim free USDT, check my bio",
+   "created_at": "2026-10-10T12:14:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0011",
+   "url": "https://x.com/i/status/demo-0011",
+   "author": "demo_fuli_520",
+   "author_id": "",
+   "text": "@demo_creator 想赚钱的私我，日入500U，带你上车",
+   "created_at": "2026-10-10T12:15:00+00:00",
+   "in_reply_to": "demo-0000"
+  },
+  {
+   "id": "demo-0012",
+   "url": "https://x.com/i/status/demo-0012",
+   "author": "demo_ghost_x",
+   "author_id": "",
+   "text": "@demo_creator Interesting.",
+   "created_at": "2026-10-10T12:16:00+00:00",
+   "in_reply_to": "demo-0000"
+  }
+ ],
+ "authors": {
+  "demo_maya_builds": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "Shipped the onboarding rewrite today, activation up a bit",
+     "is_reply": false,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-09T22:00:00+00:00",
+     "text": "Anyone else fighting flaky e2e tests on CI?",
+     "is_reply": true,
+     "likes": 8
+    },
+    {
+     "created_at": "2026-10-09T08:00:00+00:00",
+     "text": "@sam yes, we moved to fixtures and it helped",
+     "is_reply": true,
+     "likes": 12
+    },
+    {
+     "created_at": "2026-10-08T18:00:00+00:00",
+     "text": "Weekend project: a tiny RSS reader for my team",
+     "is_reply": false,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-08T04:00:00+00:00",
+     "text": "@lee the trick is to cache the auth step",
+     "is_reply": true,
+     "likes": 20
+    },
+    {
+     "created_at": "2026-10-07T14:00:00+00:00",
+     "text": "Reading about evals for agent workflows",
+     "is_reply": true,
+     "likes": 9
+    },
+    {
+     "created_at": "2026-10-07T00:00:00+00:00",
+     "text": "Coffee + refactor morning",
+     "is_reply": false,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-06T10:00:00+00:00",
+     "text": "@kim totally agree on small PRs",
+     "is_reply": true,
+     "likes": 8
+    },
+    {
+     "created_at": "2026-10-05T20:00:00+00:00",
+     "text": "Wrote notes on our pricing experiment",
+     "is_reply": true,
+     "likes": 12
+    },
+    {
+     "created_at": "2026-10-05T06:00:00+00:00",
+     "text": "Hiring a part-time designer, DM is open",
+     "is_reply": false,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-04T16:00:00+00:00",
+     "text": "@ana thanks for the link!",
+     "is_reply": true,
+     "likes": 20
+    },
+    {
+     "created_at": "2026-10-04T02:00:00+00:00",
+     "text": "Back from a hike, inbox zero later",
+     "is_reply": true,
+     "likes": 9
+    }
+   ]
+  },
+  "demo_wang_pm": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "今天把小红书后台的数据导出来看了一下",
+     "is_reply": false,
+     "likes": 4
+    },
+    {
+     "created_at": "2026-10-10T03:00:00+00:00",
+     "text": "@阿杰 这个功能我们也踩过坑",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-09T18:00:00+00:00",
+     "text": "周末带娃去公园，手机放家里了",
+     "is_reply": false,
+     "likes": 6
+    },
+    {
+     "created_at": "2026-10-09T09:00:00+00:00",
+     "text": "@小林 对，留存比拉新难",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-09T00:00:00+00:00",
+     "text": "新版本上线，改了三处引导",
+     "is_reply": false,
+     "likes": 9
+    },
+    {
+     "created_at": "2026-10-08T15:00:00+00:00",
+     "text": "@老周 同意，先跑通一个人用",
+     "is_reply": true,
+     "likes": 4
+    },
+    {
+     "created_at": "2026-10-08T06:00:00+00:00",
+     "text": "读完一本讲定价的书，记了几页笔记",
+     "is_reply": false,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-07T21:00:00+00:00",
+     "text": "@Momo 可以试试先做问卷",
+     "is_reply": true,
+     "likes": 6
+    },
+    {
+     "created_at": "2026-10-07T12:00:00+00:00",
+     "text": "开了个产品复盘会，结论不多但很实",
+     "is_reply": false,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-07T03:00:00+00:00",
+     "text": "@zz 谢谢推荐",
+     "is_reply": true,
+     "likes": 9
+    },
+    {
+     "created_at": "2026-10-06T18:00:00+00:00",
+     "text": "这周做的事：访谈 5 个用户",
+     "is_reply": false,
+     "likes": 4
+    },
+    {
+     "created_at": "2026-10-06T09:00:00+00:00",
+     "text": "@大白 哈哈确实",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-06T00:00:00+00:00",
+     "text": "整理了一下需求池",
+     "is_reply": false,
+     "likes": 6
+    },
+    {
+     "created_at": "2026-10-05T15:00:00+00:00",
+     "text": "@阿青 这个数据口径要先对齐",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-05T06:00:00+00:00",
+     "text": "晚上跑了 5 公里",
+     "is_reply": false,
+     "likes": 9
+    }
+   ]
+  },
+  "demo_lin_trades": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "今天这波回调在预期里，没动仓位",
+     "is_reply": false,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T09:00:00+00:00",
+     "text": "@小鱼 我一般先看成交量",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T06:00:00+00:00",
+     "text": "复盘：上周追高那笔亏了，规则写进清单",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-10T03:00:00+00:00",
+     "text": "@阿峰 止损别移",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T00:00:00+00:00",
+     "text": "资金费率又转正了",
+     "is_reply": true,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-09T21:00:00+00:00",
+     "text": "@Ken 对，这个指标滞后",
+     "is_reply": false,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-09T18:00:00+00:00",
+     "text": "周线级别还没走坏",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-09T15:00:00+00:00",
+     "text": "@老王 别借钱炒",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-09T12:00:00+00:00",
+     "text": "记录一下今天的仓位和理由",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-09T09:00:00+00:00",
+     "text": "@Coco 现货为主",
+     "is_reply": true,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-09T06:00:00+00:00",
+     "text": "开盘前写好计划",
+     "is_reply": false,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-09T03:00:00+00:00",
+     "text": "@阿Ben 这个我也在看",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-09T00:00:00+00:00",
+     "text": "今天不交易，只看",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-08T21:00:00+00:00",
+     "text": "@阿土 哈哈",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-08T18:00:00+00:00",
+     "text": "整理了三个月的交割单",
+     "is_reply": true,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-08T15:00:00+00:00",
+     "text": "@Lily 分批进",
+     "is_reply": false,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-08T12:00:00+00:00",
+     "text": "晚上读了两篇研报",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-08T09:00:00+00:00",
+     "text": "@Tom 杠杆别超过 2 倍",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-08T06:00:00+00:00",
+     "text": "胜率不重要，盈亏比重要",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-08T03:00:00+00:00",
+     "text": "@小米 同意",
+     "is_reply": true,
+     "likes": 5
+    }
+   ]
+  },
+  "demo_busy_newsdesk": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "BREAKING: city council approves new bike lanes",
+     "is_reply": false,
+     "likes": 35
+    },
+    {
+     "created_at": "2026-10-10T11:45:00+00:00",
+     "text": "Markets open higher after the jobs report",
+     "is_reply": true,
+     "likes": 60
+    },
+    {
+     "created_at": "2026-10-10T11:30:00+00:00",
+     "text": "Storm warning extended through Sunday",
+     "is_reply": true,
+     "likes": 22
+    },
+    {
+     "created_at": "2026-10-10T11:15:00+00:00",
+     "text": "Local team clinches playoff spot",
+     "is_reply": true,
+     "likes": 41
+    },
+    {
+     "created_at": "2026-10-10T11:00:00+00:00",
+     "text": "Museum reopens east wing",
+     "is_reply": true,
+     "likes": 90
+    },
+    {
+     "created_at": "2026-10-10T10:45:00+00:00",
+     "text": "Transit fares unchanged next year",
+     "is_reply": false,
+     "likes": 35
+    },
+    {
+     "created_at": "2026-10-10T10:30:00+00:00",
+     "text": "Heat advisory lifted",
+     "is_reply": true,
+     "likes": 60
+    },
+    {
+     "created_at": "2026-10-10T10:15:00+00:00",
+     "text": "New library hours start Monday",
+     "is_reply": true,
+     "likes": 22
+    },
+    {
+     "created_at": "2026-10-10T10:00:00+00:00",
+     "text": "School board vote moved to Thursday",
+     "is_reply": true,
+     "likes": 41
+    },
+    {
+     "created_at": "2026-10-10T09:45:00+00:00",
+     "text": "Airport adds two routes",
+     "is_reply": true,
+     "likes": 90
+    },
+    {
+     "created_at": "2026-10-10T09:30:00+00:00",
+     "text": "Farmers market returns downtown",
+     "is_reply": false,
+     "likes": 35
+    },
+    {
+     "created_at": "2026-10-10T09:15:00+00:00",
+     "text": "Bridge repairs finish early",
+     "is_reply": true,
+     "likes": 60
+    },
+    {
+     "created_at": "2026-10-10T09:00:00+00:00",
+     "text": "Power restored to most homes",
+     "is_reply": true,
+     "likes": 22
+    },
+    {
+     "created_at": "2026-10-10T08:45:00+00:00",
+     "text": "Food bank asks for volunteers",
+     "is_reply": true,
+     "likes": 41
+    },
+    {
+     "created_at": "2026-10-10T08:30:00+00:00",
+     "text": "Concert tickets sold out in minutes",
+     "is_reply": true,
+     "likes": 90
+    },
+    {
+     "created_at": "2026-10-10T08:15:00+00:00",
+     "text": "Ferry schedule changes this winter",
+     "is_reply": false,
+     "likes": 35
+    },
+    {
+     "created_at": "2026-10-10T08:00:00+00:00",
+     "text": "Park cleanup draws 300 people",
+     "is_reply": true,
+     "likes": 60
+    },
+    {
+     "created_at": "2026-10-10T07:45:00+00:00",
+     "text": "New clinic opens on Main St",
+     "is_reply": true,
+     "likes": 22
+    },
+    {
+     "created_at": "2026-10-10T07:30:00+00:00",
+     "text": "Road closures for the marathon",
+     "is_reply": true,
+     "likes": 41
+    },
+    {
+     "created_at": "2026-10-10T07:15:00+00:00",
+     "text": "Weekend weather: mild and dry",
+     "is_reply": true,
+     "likes": 90
+    }
+   ]
+  },
+  "demo_agent_harness_daily": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "Models change every week. The harness is what compounds.",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:51:00+00:00",
+     "text": "@a Exactly — the harness decides what context the model sees.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:42:00+00:00",
+     "text": "@b Retries without idempotency are just a harness bug waiting to happen.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T11:33:00+00:00",
+     "text": "Eval your harness, not your prompt.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:24:00+00:00",
+     "text": "@c The moat moved from model to harness.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:15:00+00:00",
+     "text": "@d Great point. The harness matters more than the model.",
+     "is_reply": false,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T11:06:00+00:00",
+     "text": "Long-running agents need a harness with checkpoints.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:57:00+00:00",
+     "text": "@e A good harness turns logs into memory.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:48:00+00:00",
+     "text": "@f Love this. Curious — which harness pattern works best for you?",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T10:39:00+00:00",
+     "text": "Harness engineering is the new backend.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:30:00+00:00",
+     "text": "@g Spot on. Without a harness, agents drift.",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:21:00+00:00",
+     "text": "@h This is why the harness wins.",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T10:12:00+00:00",
+     "text": "Your harness is your product.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:03:00+00:00",
+     "text": "@i Totally — and the harness is where safety lives.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:54:00+00:00",
+     "text": "@j The real question is the harness, not the model.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T09:45:00+00:00",
+     "text": "Ship the harness first.",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:36:00+00:00",
+     "text": "@k Nice. How do you version your harness?",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:27:00+00:00",
+     "text": "@l Agree, harness > prompt.",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T09:18:00+00:00",
+     "text": "A harness without evals is a vibe.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:09:00+00:00",
+     "text": "@m Curious what your harness looks like.",
+     "is_reply": true,
+     "likes": 0
+    }
+   ]
+  },
+  "demo_token_is_power": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "智能体的差距不在模型，在工程",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:50:00+00:00",
+     "text": "@阿A 说得实在，智能体落地关键是上下文",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:40:00+00:00",
+     "text": "@阿B 这个观察很到位，智能体要能续跑",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:30:00+00:00",
+     "text": "智能体时代，数据管线才是护城河",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T11:20:00+00:00",
+     "text": "@阿C 好奇你这边智能体怎么做评测？",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:10:00+00:00",
+     "text": "@阿D 很赞，智能体最怕状态漂移",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:00:00+00:00",
+     "text": "做智能体先做日志",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:50:00+00:00",
+     "text": "@阿E 同意，智能体要幂等",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:40:00+00:00",
+     "text": "@阿F 好奇你们智能体用哪个框架？",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T10:30:00+00:00",
+     "text": "智能体不是聊天机器人",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:20:00+00:00",
+     "text": "@阿G 这个思路对，智能体要有闸门",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:10:00+00:00",
+     "text": "@阿H 实在，智能体就是工程问题",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:00:00+00:00",
+     "text": "智能体的成本在重试",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:50:00+00:00",
+     "text": "@阿I 好奇你们怎么给智能体分权限？",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T09:40:00+00:00",
+     "text": "@阿J 很到位",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:30:00+00:00",
+     "text": "智能体要能被打断",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:20:00+00:00",
+     "text": "@阿K 说得好，智能体要可回放",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:10:00+00:00",
+     "text": "@阿L 好奇这个怎么落地？",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:00:00+00:00",
+     "text": "智能体的上限是工程",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T08:50:00+00:00",
+     "text": "@阿M 赞同",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-08-11T12:00:00+00:00",
+     "text": "pinned: about me",
+     "is_reply": false,
+     "likes": 40
+    }
+   ]
+  },
+  "demo_growth_loop_ai": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "Distribution is the only moat left.",
+     "is_reply": false,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T11:48:00+00:00",
+     "text": "@n This is the real moat — systems over prompts.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:36:00+00:00",
+     "text": "@o Great thread. The moat is your feedback loop.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T11:24:00+00:00",
+     "text": "@p Curious — what's your stack?",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T11:12:00+00:00",
+     "text": "Content is a moat if it compounds.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:00:00+00:00",
+     "text": "@q Love this framing of the moat.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T10:48:00+00:00",
+     "text": "@r Spot on.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:36:00+00:00",
+     "text": "@s Systems beat goals every time.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T10:24:00+00:00",
+     "text": "Your audience is your moat.",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T10:12:00+00:00",
+     "text": "@t Brilliant breakdown, what's next?",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T10:00:00+00:00",
+     "text": "@u The moat is trust.",
+     "is_reply": false,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T09:48:00+00:00",
+     "text": "@v Agreed.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:36:00+00:00",
+     "text": "Build the loop, not the post.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T09:24:00+00:00",
+     "text": "@w This!",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T09:12:00+00:00",
+     "text": "@x Curious how you measure it?",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T09:00:00+00:00",
+     "text": "Moats are made of habits.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T08:48:00+00:00",
+     "text": "@y Underrated point.",
+     "is_reply": true,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T08:36:00+00:00",
+     "text": "@z Great question.",
+     "is_reply": true,
+     "likes": 1
+    },
+    {
+     "created_at": "2026-10-10T08:24:00+00:00",
+     "text": "Ship daily, compound weekly.",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-10T08:12:00+00:00",
+     "text": "@aa So true.",
+     "is_reply": true,
+     "likes": 0
+    }
+   ]
+  },
+  "demo_airdrop_claim": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:59:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (1)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:58:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (2)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:57:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (3)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:56:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (4)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:55:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (5)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:54:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (6)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:53:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (7)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:52:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (8)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:51:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (9)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:50:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (10)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:49:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (11)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:48:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (12)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:47:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (13)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:46:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (14)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:45:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (15)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:44:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (16)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:43:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (17)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:42:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (18)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:41:00+00:00",
+     "text": "@someone Airdrop is live 🎁 claim free USDT, check my bio (19)",
+     "is_reply": false,
+     "likes": 0
+    }
+   ]
+  },
+  "demo_fuli_520": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:58:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (1)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:56:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (2)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:54:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (3)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:52:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (4)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:50:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (5)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:48:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (6)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:46:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (7)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:44:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (8)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:42:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (9)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:40:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (10)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:38:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (11)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:36:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (12)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:34:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (13)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:32:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (14)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:30:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (15)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:28:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (16)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:26:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (17)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:24:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (18)",
+     "is_reply": false,
+     "likes": 0
+    },
+    {
+     "created_at": "2026-10-10T11:22:00+00:00",
+     "text": "@某人 想赚钱的私我，日入500U，带你上车 (19)",
+     "is_reply": false,
+     "likes": 0
+    }
+   ]
+  },
+  "demo_tg_fan": {
+   "recent": [
+    {
+     "created_at": "2026-10-10T12:00:00+00:00",
+     "text": "今天把 TG 群里的讨论整理成了笔记",
+     "is_reply": false,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-10T04:00:00+00:00",
+     "text": "@阿森 对，先跑小样本",
+     "is_reply": true,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-09T20:00:00+00:00",
+     "text": "开源工具真香",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-09T12:00:00+00:00",
+     "text": "@小周 你那个脚本借我看看",
+     "is_reply": false,
+     "likes": 7
+    },
+    {
+     "created_at": "2026-10-09T04:00:00+00:00",
+     "text": "周末研究了一下 X 的推荐机制",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-08T20:00:00+00:00",
+     "text": "@阿九 有道理",
+     "is_reply": true,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-08T12:00:00+00:00",
+     "text": "写了篇小结",
+     "is_reply": false,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-08T04:00:00+00:00",
+     "text": "@木木 同意",
+     "is_reply": true,
+     "likes": 7
+    },
+    {
+     "created_at": "2026-10-07T20:00:00+00:00",
+     "text": "今天学会了用 cron",
+     "is_reply": true,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-07T12:00:00+00:00",
+     "text": "@阿秋 收到",
+     "is_reply": false,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-07T04:00:00+00:00",
+     "text": "记录：评论区越来越多机器人",
+     "is_reply": true,
+     "likes": 2
+    },
+    {
+     "created_at": "2026-10-06T20:00:00+00:00",
+     "text": "@小北 哈哈哈",
+     "is_reply": true,
+     "likes": 7
+    },
+    {
+     "created_at": "2026-10-06T12:00:00+00:00",
+     "text": "读完了一篇讲分发的文章",
+     "is_reply": false,
+     "likes": 3
+    },
+    {
+     "created_at": "2026-10-06T04:00:00+00:00",
+     "text": "@阿南 好主意",
+     "is_reply": true,
+     "likes": 5
+    },
+    {
+     "created_at": "2026-10-05T20:00:00+00:00",
+     "text": "早睡",
+     "is_reply": true,
+     "likes": 2
+    }
+   ]
+  },
+  "demo_ghost_x": {
+   "error": "TimeoutExpired: lookup timed out"
+  }
+ }
+}
